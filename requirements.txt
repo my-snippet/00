@@ -1,0 +1,10 @@
+# Pre-requisite for Ansible 
+paramiko 
+PyYAML 
+Jinja2 
+httplib2 
+six
+
+# Ansible
+ansible
+passlib

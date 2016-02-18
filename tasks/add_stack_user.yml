@@ -1,0 +1,3 @@
+---
+- name: add stack user
+  action: user name={{ stack_user }} password={{ stack_password }} update_password=always                    shell=/bin/bash home=/home/{{ stack_user }}

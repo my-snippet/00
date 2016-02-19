@@ -5,12 +5,8 @@
   vars_files:
     - vars/stack_user.yml
 
-  tasks:
-    # Essential libraries for Ansible
-    - name: update apt cache
-      apt: update_cache=yes
-    - include: tasks/apache.yml
-    - include: tasks/mysql.yml
-    - include: tasks/php.yml
+  roles:
+    - common
 
+  tasks:
     - include: tasks/add_stack_user.yml

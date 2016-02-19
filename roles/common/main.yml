@@ -1,0 +1,10 @@
+---
+- name: apt-get update
+  apt: update_cache=yes
+
+- name: install packages
+  apt: name={{ item }} state=present
+  with_items:
+    - apache2
+    - mysql-server
+    - php5

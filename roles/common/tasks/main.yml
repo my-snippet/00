@@ -8,3 +8,4 @@
     - apache2
     - mysql-server
     - php5
+    - git

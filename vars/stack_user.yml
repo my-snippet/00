@@ -1,3 +1,0 @@
----
-stack_user: "stack"
-stack_password: "{{ lookup('env','STACK_PASSWORD') }}"

@@ -1,2 +1,3 @@
 ---
-stack_user_file: "stack-user.yml"
+stack_user_file: "stack-user"
+repo_file: "repo"

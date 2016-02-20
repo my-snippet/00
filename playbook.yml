@@ -2,11 +2,6 @@
 - hosts: all
   become: yes
 
-  vars_files:
-    - vars/stack_user.yml
-
   roles:
     - common
-
-  tasks:
-    - include: tasks/add_stack_user.yml
+    - devstack

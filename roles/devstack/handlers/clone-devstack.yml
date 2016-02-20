@@ -1,6 +1,7 @@
 ---
 - name: clone devstack
-  remote_user: "{{ stack_user }}"  
+  remote_user: "{{ stack_user }}"
+  become_method: sudo
   git: repo="{{ repo }}"
        dest="{{ dest }}"
        version="{{ branch }}"

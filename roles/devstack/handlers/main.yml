@@ -1,0 +1,3 @@
+---
+- name: clone devstack
+  include: clone-devstack.yml

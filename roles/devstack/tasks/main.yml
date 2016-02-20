@@ -1,9 +1,11 @@
 ---
 - name: load var files
-  include_vars: "{{ stack_user_file }}"
+  include_vars: "{{ item }}"
+  with_items:
+   - "{{ stack_user_file }}.yml"
+   - "{{ repo_file }}.yml" 
 
-- name: add stack user
+- name: stack user configurations
   include: add-stack-user.yml
-
-#- name: clone devstack
-#  include: clone-devstack.yml
+  notify:
+    - clone devstack

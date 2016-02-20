@@ -1,0 +1,3 @@
+---
+- name: add stack user
+  include: add-stack-user.yml

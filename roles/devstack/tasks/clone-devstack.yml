@@ -1,6 +1,6 @@
 ---
 - name: clone devstack
-  remote_user: "{{ stack_user }}"  
+  become_user: "{{ stack_user }}"
   git: repo="{{ repo }}"
        dest="{{ dest }}"
        version="{{ branch }}"

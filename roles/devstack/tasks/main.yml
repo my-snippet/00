@@ -9,9 +9,6 @@
 - name: create stack user
   include: add-stack-user.yml
 
-- name: let stack user be without password requirement
-  shell: echo "'{{ stack_user }} ALL=(ALL) NOPASSWD: ALL' >> /etc/sudoers"
-
 - name: clone devstack
   include: clone-devstack.yml
 

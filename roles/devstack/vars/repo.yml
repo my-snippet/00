@@ -1,4 +1,4 @@
 ---
 repo: git://github.com/openstack-dev/devstack.git
 branch: master
-dest: ~/devstack
+dest: /home/stack/devstack

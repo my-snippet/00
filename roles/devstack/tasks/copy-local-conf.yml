@@ -1,0 +1,3 @@
+- name: copy local.conf
+  become_user: "{{ stack_user }}"
+  template: src="{{ local_conf_src }}" dest="{{ local_conf_dest }}"

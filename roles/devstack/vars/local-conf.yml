@@ -1,0 +1,3 @@
+--- 
+local_conf_src: roles/devstack/templates/local.conf
+local_conf_dest: /home/vagrant/devstack/local.conf

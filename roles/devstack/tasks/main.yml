@@ -4,9 +4,13 @@
   with_items:
    - stack-user.yml
    - repo.yml
+   - local-conf.yml
 
 - name: stack user configurations
   include: add-stack-user.yml
 
 - name: clone devstack
   include: clone-devstack.yml
+
+- name: copy local.conf
+  include: copy-local-conf.yml

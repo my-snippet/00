@@ -4,4 +4,4 @@
         password="{{ stack_password }}"
         update_password=always 
         shell=/bin/bash 
-        home=/home/"{{ stack_user }}"
+        home="/home/{{ stack_user }}"

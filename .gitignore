@@ -3,6 +3,7 @@
 venv/
 
 *.swp
+*.swo
 
 local.conf
 

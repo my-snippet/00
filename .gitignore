@@ -4,4 +4,6 @@ venv/
 
 *.swp
 
+local.conf
+
 vagrant/

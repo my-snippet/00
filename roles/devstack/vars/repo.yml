@@ -1,4 +1,4 @@
 ---
-repo: git://github.com/openstack-dev/devstack.git
-branch: master
-dest: /home/stack/devstack
+devstack_repo: git://github.com/openstack-dev/devstack.git
+devstack_branch: master
+devstack_dest: /home/stack/devstack

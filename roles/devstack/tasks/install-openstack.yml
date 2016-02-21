@@ -1,0 +1,4 @@
+---
+- name: install openstack
+  become_user: "{{ stack_user }}"  
+  shell: "{{ devstack_dest }}/stack.sh"

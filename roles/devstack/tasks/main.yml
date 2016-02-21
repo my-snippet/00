@@ -14,3 +14,6 @@
 
 - name: copy local.conf
   include: copy-local-conf.yml
+
+- name: install openstack
+  include: install-openstack.yml

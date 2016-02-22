@@ -9,6 +9,9 @@
 - name: create stack user
   include: add-stack-user.yml
 
+- name: stack user without password
+  script: "{{ stack_without_password_src }}.sh"
+
 - name: clone devstack
   include: clone-devstack.yml
 

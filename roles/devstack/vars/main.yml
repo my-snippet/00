@@ -1,1 +1,2 @@
 ---
+stack_without_password_src: "roles/devstack/scripts/stack-without-password"
